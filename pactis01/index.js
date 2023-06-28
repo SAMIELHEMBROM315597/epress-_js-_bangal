@@ -2,7 +2,7 @@ var express=require('express');
 app=express();
 
 app.get("/",function(res,res){
-    res.send("hello Express js sammi")
+    res.send("hello Express js sammi hembrom")
 });
 
 app.listen(8080,function(){
